@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5994F7AB1B89A01500C22664 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7AA1B89A01500C22664 /* AppDelegate.m */; };
+		5994F7AE1B89A01500C22664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7AD1B89A01500C22664 /* main.m */; };
+		5994F7B11B89A01500C22664 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7B01B89A01500C22664 /* ViewController.m */; };
+		5994F7B41B89A01500C22664 /* Moovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7B21B89A01500C22664 /* Moovies.xcdatamodeld */; };
+		5994F7B61B89A01500C22664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5994F7B51B89A01500C22664 /* Assets.xcassets */; };
+		5994F7B91B89A01500C22664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5994F7B71B89A01500C22664 /* Main.storyboard */; };
+		5994F7C41B89A01500C22664 /* MooviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7C31B89A01500C22664 /* MooviesTests.m */; };
+		5994F7CF1B89A01500C22664 /* MooviesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7CE1B89A01500C22664 /* MooviesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5994F7C01B89A01500C22664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5994F79E1B89A01500C22664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5994F7A51B89A01500C22664;
+			remoteInfo = Moovies;
+		};
+		5994F7CB1B89A01500C22664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5994F79E1B89A01500C22664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5994F7A51B89A01500C22664;
+			remoteInfo = Moovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5994F7A61B89A01500C22664 /* Moovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5994F7A91B89A01500C22664 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5994F7AA1B89A01500C22664 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5994F7AD1B89A01500C22664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5994F7AF1B89A01500C22664 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5994F7B01B89A01500C22664 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5994F7B31B89A01500C22664 /* Moovies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moovies.xcdatamodel; sourceTree = "<group>"; };
+		5994F7B51B89A01500C22664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5994F7B81B89A01500C22664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5994F7BA1B89A01500C22664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5994F7BF1B89A01500C22664 /* MooviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5994F7C31B89A01500C22664 /* MooviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MooviesTests.m; sourceTree = "<group>"; };
+		5994F7C51B89A01500C22664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5994F7CA1B89A01500C22664 /* MooviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5994F7CE1B89A01500C22664 /* MooviesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MooviesUITests.m; sourceTree = "<group>"; };
+		5994F7D01B89A01500C22664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5994F7A31B89A01500C22664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5994F7BC1B89A01500C22664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5994F7C71B89A01500C22664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5994F79D1B89A01500C22664 = {
+			isa = PBXGroup;
+			children = (
+				5994F7A81B89A01500C22664 /* Moovies */,
+				5994F7C21B89A01500C22664 /* MooviesTests */,
+				5994F7CD1B89A01500C22664 /* MooviesUITests */,
+				5994F7A71B89A01500C22664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5994F7A71B89A01500C22664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5994F7A61B89A01500C22664 /* Moovies.app */,
+				5994F7BF1B89A01500C22664 /* MooviesTests.xctest */,
+				5994F7CA1B89A01500C22664 /* MooviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5994F7A81B89A01500C22664 /* Moovies */ = {
+			isa = PBXGroup;
+			children = (
+				5994F7A91B89A01500C22664 /* AppDelegate.h */,
+				5994F7AA1B89A01500C22664 /* AppDelegate.m */,
+				5994F7AF1B89A01500C22664 /* ViewController.h */,
+				5994F7B01B89A01500C22664 /* ViewController.m */,
+				5994F7B51B89A01500C22664 /* Assets.xcassets */,
+				5994F7B71B89A01500C22664 /* Main.storyboard */,
+				5994F7BA1B89A01500C22664 /* Info.plist */,
+				5994F7B21B89A01500C22664 /* Moovies.xcdatamodeld */,
+				5994F7AC1B89A01500C22664 /* Supporting Files */,
+			);
+			path = Moovies;
+			sourceTree = "<group>";
+		};
+		5994F7AC1B89A01500C22664 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5994F7AD1B89A01500C22664 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5994F7C21B89A01500C22664 /* MooviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5994F7C31B89A01500C22664 /* MooviesTests.m */,
+				5994F7C51B89A01500C22664 /* Info.plist */,
+			);
+			path = MooviesTests;
+			sourceTree = "<group>";
+		};
+		5994F7CD1B89A01500C22664 /* MooviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5994F7CE1B89A01500C22664 /* MooviesUITests.m */,
+				5994F7D01B89A01500C22664 /* Info.plist */,
+			);
+			path = MooviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5994F7A51B89A01500C22664 /* Moovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5994F7D31B89A01500C22664 /* Build configuration list for PBXNativeTarget "Moovies" */;
+			buildPhases = (
+				5994F7A21B89A01500C22664 /* Sources */,
+				5994F7A31B89A01500C22664 /* Frameworks */,
+				5994F7A41B89A01500C22664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moovies;
+			productName = Moovies;
+			productReference = 5994F7A61B89A01500C22664 /* Moovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5994F7BE1B89A01500C22664 /* MooviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5994F7D61B89A01500C22664 /* Build configuration list for PBXNativeTarget "MooviesTests" */;
+			buildPhases = (
+				5994F7BB1B89A01500C22664 /* Sources */,
+				5994F7BC1B89A01500C22664 /* Frameworks */,
+				5994F7BD1B89A01500C22664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5994F7C11B89A01500C22664 /* PBXTargetDependency */,
+			);
+			name = MooviesTests;
+			productName = MooviesTests;
+			productReference = 5994F7BF1B89A01500C22664 /* MooviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5994F7C91B89A01500C22664 /* MooviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5994F7D91B89A01500C22664 /* Build configuration list for PBXNativeTarget "MooviesUITests" */;
+			buildPhases = (
+				5994F7C61B89A01500C22664 /* Sources */,
+				5994F7C71B89A01500C22664 /* Frameworks */,
+				5994F7C81B89A01500C22664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5994F7CC1B89A01500C22664 /* PBXTargetDependency */,
+			);
+			name = MooviesUITests;
+			productName = MooviesUITests;
+			productReference = 5994F7CA1B89A01500C22664 /* MooviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5994F79E1B89A01500C22664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = avikantz;
+				TargetAttributes = {
+					5994F7A51B89A01500C22664 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					5994F7BE1B89A01500C22664 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5994F7A51B89A01500C22664;
+					};
+					5994F7C91B89A01500C22664 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 5994F7A51B89A01500C22664;
+					};
+				};
+			};
+			buildConfigurationList = 5994F7A11B89A01500C22664 /* Build configuration list for PBXProject "Moovies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5994F79D1B89A01500C22664;
+			productRefGroup = 5994F7A71B89A01500C22664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5994F7A51B89A01500C22664 /* Moovies */,
+				5994F7BE1B89A01500C22664 /* MooviesTests */,
+				5994F7C91B89A01500C22664 /* MooviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5994F7A41B89A01500C22664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5994F7B61B89A01500C22664 /* Assets.xcassets in Resources */,
+				5994F7B91B89A01500C22664 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5994F7BD1B89A01500C22664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5994F7C81B89A01500C22664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5994F7A21B89A01500C22664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5994F7B11B89A01500C22664 /* ViewController.m in Sources */,
+				5994F7AE1B89A01500C22664 /* main.m in Sources */,
+				5994F7B41B89A01500C22664 /* Moovies.xcdatamodeld in Sources */,
+				5994F7AB1B89A01500C22664 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5994F7BB1B89A01500C22664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5994F7C41B89A01500C22664 /* MooviesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5994F7C61B89A01500C22664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5994F7CF1B89A01500C22664 /* MooviesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5994F7C11B89A01500C22664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5994F7A51B89A01500C22664 /* Moovies */;
+			targetProxy = 5994F7C01B89A01500C22664 /* PBXContainerItemProxy */;
+		};
+		5994F7CC1B89A01500C22664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5994F7A51B89A01500C22664 /* Moovies */;
+			targetProxy = 5994F7CB1B89A01500C22664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5994F7B71B89A01500C22664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5994F7B81B89A01500C22664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5994F7D11B89A01500C22664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5994F7D21B89A01500C22664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5994F7D41B89A01500C22664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Moovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avikantz.Moovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5994F7D51B89A01500C22664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Moovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avikantz.Moovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5994F7D71B89A01500C22664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MooviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avikantz.MooviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moovies.app/Contents/MacOS/Moovies";
+			};
+			name = Debug;
+		};
+		5994F7D81B89A01500C22664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MooviesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avikantz.MooviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moovies.app/Contents/MacOS/Moovies";
+			};
+			name = Release;
+		};
+		5994F7DA1B89A01500C22664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MooviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avikantz.MooviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Moovies;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5994F7DB1B89A01500C22664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MooviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avikantz.MooviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Moovies;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5994F7A11B89A01500C22664 /* Build configuration list for PBXProject "Moovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5994F7D11B89A01500C22664 /* Debug */,
+				5994F7D21B89A01500C22664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5994F7D31B89A01500C22664 /* Build configuration list for PBXNativeTarget "Moovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5994F7D41B89A01500C22664 /* Debug */,
+				5994F7D51B89A01500C22664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5994F7D61B89A01500C22664 /* Build configuration list for PBXNativeTarget "MooviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5994F7D71B89A01500C22664 /* Debug */,
+				5994F7D81B89A01500C22664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5994F7D91B89A01500C22664 /* Build configuration list for PBXNativeTarget "MooviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5994F7DA1B89A01500C22664 /* Debug */,
+				5994F7DB1B89A01500C22664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5994F7B21B89A01500C22664 /* Moovies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5994F7B31B89A01500C22664 /* Moovies.xcdatamodel */,
+			);
+			currentVersion = 5994F7B31B89A01500C22664 /* Moovies.xcdatamodel */;
+			path = Moovies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5994F79E1B89A01500C22664 /* Project object */;
+}
