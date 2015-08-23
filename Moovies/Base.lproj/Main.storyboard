@@ -644,7 +644,7 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="63.5" y="-140"/>
+            <point key="canvasLocation" x="75.5" y="-181"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -664,7 +664,7 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="250"/>
+            <point key="canvasLocation" x="75" y="209"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
@@ -681,7 +681,7 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView appearanceType="vibrantLight" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="42" rowSizeStyle="automatic" viewBased="YES" id="toa-Qx-cdy" customClass="JWCTableView">
-                                            <rect key="frame" x="0.0" y="0.0" width="420" height="548"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="420" height="0.0"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -845,7 +845,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="924"/>
+            <point key="canvasLocation" x="75" y="925"/>
         </scene>
         <!--Add View Controller-->
         <scene sceneID="4HB-Gg-Hgf">
@@ -924,18 +924,18 @@ Gw
                 </viewController>
                 <customObject id="AMG-KW-aAV" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-291" y="996.5"/>
+            <point key="canvasLocation" x="-361" y="1461.5"/>
         </scene>
         <!--Generator View Controller-->
         <scene sceneID="dcE-rZ-jC0">
             <objects>
                 <viewController id="Ofb-eD-cmi" customClass="GeneratorViewController" sceneMemberID="viewController">
                     <view key="view" id="UVs-yz-cP3">
-                        <rect key="frame" x="0.0" y="0.0" width="479" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="472" height="320"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="r0w-t1-Hb7">
-                                <rect key="frame" x="218" y="23" width="43" height="17"/>
+                                <rect key="frame" x="214" y="23" width="43" height="17"/>
                                 <buttonCell key="cell" type="inline" title="Close" bezelStyle="inline" alignment="center" borderStyle="border" inset="2" id="9ks-Mw-qdH">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="smallSystemBold"/>
@@ -948,10 +948,7 @@ Gw
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="m98-fW-QUT">
-                                <rect key="frame" x="20" y="218" width="439" height="22"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="439" id="SqK-dd-98X"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="218" width="432" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" borderStyle="bezel" alignment="center" placeholderString="Enter root directory path. (e.g. /Volumes/Movies)" bezelStyle="round" id="EZb-nx-jvo">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -962,7 +959,7 @@ Gw
                                 </connections>
                             </textField>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="eya-yK-s79">
-                                <rect key="frame" x="185" y="17" width="110" height="29"/>
+                                <rect key="frame" x="181" y="17" width="110" height="29"/>
                                 <buttonCell key="cell" type="bevel" title="Export to App" bezelStyle="regularSquare" imagePosition="left" alignment="left" borderStyle="border" inset="2" id="yfI-1s-g8s">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -972,7 +969,10 @@ Gw
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ETH-yK-OiY">
-                                <rect key="frame" x="2" y="176" width="475" height="34"/>
+                                <rect key="frame" x="14" y="176" width="444" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="440" id="ZKu-RI-lcF"/>
+                                </constraints>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="The root directory is the directory that has all the folders containing Movies. Arragned: Root/&lt;Movie Category&gt;/&lt;Movie Name&gt;" id="vGY-gr-lxD">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -980,7 +980,7 @@ Gw
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sW1-GX-0VN">
-                                <rect key="frame" x="18" y="84" width="443" height="27"/>
+                                <rect key="frame" x="18" y="84" width="436" height="27"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="File saved to ~/Desktop" id="9jn-bi-XY4">
                                     <font key="font" size="22" name="HelveticaNeue-Thin"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -997,7 +997,7 @@ Gw
                             </textField>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="ETH-yK-OiY" firstAttribute="leading" secondItem="UVs-yz-cP3" secondAttribute="leading" constant="4" id="8mw-iP-13K"/>
+                            <constraint firstItem="ETH-yK-OiY" firstAttribute="leading" secondItem="UVs-yz-cP3" secondAttribute="leading" constant="16" id="8mw-iP-13K"/>
                             <constraint firstAttribute="trailing" secondItem="sW1-GX-0VN" secondAttribute="trailing" constant="20" id="QLi-4N-ruU"/>
                             <constraint firstItem="r0w-t1-Hb7" firstAttribute="centerX" secondItem="eya-yK-s79" secondAttribute="centerX" id="VPH-AR-H64"/>
                             <constraint firstItem="m98-fW-QUT" firstAttribute="leading" secondItem="UVs-yz-cP3" secondAttribute="leading" constant="20" id="WvK-50-lZx"/>
@@ -1010,7 +1010,7 @@ Gw
                             <constraint firstItem="sW1-GX-0VN" firstAttribute="leading" secondItem="UVs-yz-cP3" secondAttribute="leading" constant="20" id="oQX-Hg-R9k"/>
                             <constraint firstAttribute="centerX" secondItem="eya-yK-s79" secondAttribute="centerX" id="qKE-aI-dbc"/>
                             <constraint firstItem="ETH-yK-OiY" firstAttribute="centerX" secondItem="m98-fW-QUT" secondAttribute="centerX" id="qRS-n1-dO3"/>
-                            <constraint firstAttribute="trailing" secondItem="ETH-yK-OiY" secondAttribute="trailing" constant="4" id="yKr-68-SZK"/>
+                            <constraint firstAttribute="trailing" secondItem="ETH-yK-OiY" secondAttribute="trailing" constant="16" id="yKr-68-SZK"/>
                             <constraint firstItem="m98-fW-QUT" firstAttribute="top" secondItem="UVs-yz-cP3" secondAttribute="top" constant="80" id="yYf-Uc-18i"/>
                         </constraints>
                     </view>
@@ -1022,7 +1022,7 @@ Gw
                 </viewController>
                 <customObject id="rtr-9k-KBu" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75.5" y="1529"/>
+            <point key="canvasLocation" x="75" y="1529"/>
         </scene>
     </scenes>
 </document>

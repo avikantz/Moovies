@@ -30,7 +30,7 @@
 	}
 	else {
 		NSAlert *alert = [[NSAlert alloc] init];
-		alert.informativeText = [NSString stringWithFormat:@"Invalid movie name format. Category and Movie name should not be blank.\nMovie name format: '<Name> (yyyy)'"];
+		alert.informativeText = [NSString stringWithFormat:@"Category and movie name should not be blank.\n\nMovie name format: 'Name (yyyy)'\ne.g. Serenity (2005)"];
 		alert.messageText = @"Invalid Format";
 		[alert addButtonWithTitle:@"Aw Crap."];
 		[alert beginSheetModalForWindow:self.view.window completionHandler:^(NSModalResponse returnCode) {
