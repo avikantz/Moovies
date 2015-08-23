@@ -15,6 +15,18 @@
 		5994F7B91B89A01500C22664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5994F7B71B89A01500C22664 /* Main.storyboard */; };
 		5994F7C41B89A01500C22664 /* MooviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7C31B89A01500C22664 /* MooviesTests.m */; };
 		5994F7CF1B89A01500C22664 /* MooviesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7CE1B89A01500C22664 /* MooviesUITests.m */; };
+		5994F7E51B89A10600C22664 /* GRSeparatorLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7DE1B89A10600C22664 /* GRSeparatorLineView.m */; };
+		5994F7E61B89A10600C22664 /* GRVibrantTitlebarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7E01B89A10600C22664 /* GRVibrantTitlebarView.m */; };
+		5994F7E71B89A10600C22664 /* GRVibrantTitlebarWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7E21B89A10600C22664 /* GRVibrantTitlebarWindow.m */; };
+		5994F7E81B89A10600C22664 /* GRVibrantTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7E41B89A10600C22664 /* GRVibrantTitleView.m */; };
+		5994F7EC1B89A11100C22664 /* JWCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7EB1B89A11100C22664 /* JWCTableView.m */; };
+		5994F7F31B89A13F00C22664 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7EE1B89A13F00C22664 /* AddViewController.m */; };
+		5994F7F41B89A13F00C22664 /* GeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7F01B89A13F00C22664 /* GeneratorViewController.m */; };
+		5994F7F51B89A13F00C22664 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7F21B89A13F00C22664 /* InformationViewController.m */; };
+		5994F7F81B89A14700C22664 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7F71B89A14700C22664 /* Item.m */; };
+		5994F7FA1B89A35700C22664 /* MoviesArray.json in Resources */ = {isa = PBXBuildFile; fileRef = 5994F7F91B89A35700C22664 /* MoviesArray.json */; };
+		5994F7FD1B89A47800C22664 /* CategoryCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7FC1B89A47800C22664 /* CategoryCellView.m */; };
+		5994F8001B89A48400C22664 /* MovieCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7FF1B89A48400C22664 /* MovieCellView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,29 @@
 		5994F7CA1B89A01500C22664 /* MooviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MooviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5994F7CE1B89A01500C22664 /* MooviesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MooviesUITests.m; sourceTree = "<group>"; };
 		5994F7D01B89A01500C22664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5994F7DD1B89A10600C22664 /* GRSeparatorLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSeparatorLineView.h; sourceTree = "<group>"; };
+		5994F7DE1B89A10600C22664 /* GRSeparatorLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSeparatorLineView.m; sourceTree = "<group>"; };
+		5994F7DF1B89A10600C22664 /* GRVibrantTitlebarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRVibrantTitlebarView.h; sourceTree = "<group>"; };
+		5994F7E01B89A10600C22664 /* GRVibrantTitlebarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRVibrantTitlebarView.m; sourceTree = "<group>"; };
+		5994F7E11B89A10600C22664 /* GRVibrantTitlebarWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRVibrantTitlebarWindow.h; sourceTree = "<group>"; };
+		5994F7E21B89A10600C22664 /* GRVibrantTitlebarWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRVibrantTitlebarWindow.m; sourceTree = "<group>"; };
+		5994F7E31B89A10600C22664 /* GRVibrantTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRVibrantTitleView.h; sourceTree = "<group>"; };
+		5994F7E41B89A10600C22664 /* GRVibrantTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRVibrantTitleView.m; sourceTree = "<group>"; };
+		5994F7EA1B89A11100C22664 /* JWCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCTableView.h; sourceTree = "<group>"; };
+		5994F7EB1B89A11100C22664 /* JWCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCTableView.m; sourceTree = "<group>"; };
+		5994F7ED1B89A13F00C22664 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		5994F7EE1B89A13F00C22664 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		5994F7EF1B89A13F00C22664 /* GeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratorViewController.h; sourceTree = "<group>"; };
+		5994F7F01B89A13F00C22664 /* GeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratorViewController.m; sourceTree = "<group>"; };
+		5994F7F11B89A13F00C22664 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		5994F7F21B89A13F00C22664 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		5994F7F61B89A14700C22664 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		5994F7F71B89A14700C22664 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		5994F7F91B89A35700C22664 /* MoviesArray.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MoviesArray.json; sourceTree = "<group>"; };
+		5994F7FB1B89A47800C22664 /* CategoryCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCellView.h; sourceTree = "<group>"; };
+		5994F7FC1B89A47800C22664 /* CategoryCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCellView.m; sourceTree = "<group>"; };
+		5994F7FE1B89A48400C22664 /* MovieCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCellView.h; sourceTree = "<group>"; };
+		5994F7FF1B89A48400C22664 /* MovieCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCellView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +136,12 @@
 		5994F7A81B89A01500C22664 /* Moovies */ = {
 			isa = PBXGroup;
 			children = (
-				5994F7A91B89A01500C22664 /* AppDelegate.h */,
-				5994F7AA1B89A01500C22664 /* AppDelegate.m */,
-				5994F7AF1B89A01500C22664 /* ViewController.h */,
-				5994F7B01B89A01500C22664 /* ViewController.m */,
-				5994F7B51B89A01500C22664 /* Assets.xcassets */,
-				5994F7B71B89A01500C22664 /* Main.storyboard */,
-				5994F7BA1B89A01500C22664 /* Info.plist */,
-				5994F7B21B89A01500C22664 /* Moovies.xcdatamodeld */,
+				5994F7F61B89A14700C22664 /* Item.h */,
+				5994F7F71B89A14700C22664 /* Item.m */,
+				5994F8011B89A4D000C22664 /* Views */,
+				5994F8031B89A4E300C22664 /* Controller */,
+				5994F7E91B89A11100C22664 /* JWCTableView */,
+				5994F7DC1B89A10600C22664 /* GRVibrantTitlebarWindow */,
 				5994F7AC1B89A01500C22664 /* Supporting Files */,
 			);
 			path = Moovies;
@@ -117,6 +150,12 @@
 		5994F7AC1B89A01500C22664 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5994F7A91B89A01500C22664 /* AppDelegate.h */,
+				5994F7AA1B89A01500C22664 /* AppDelegate.m */,
+				5994F7F91B89A35700C22664 /* MoviesArray.json */,
+				5994F7B51B89A01500C22664 /* Assets.xcassets */,
+				5994F7BA1B89A01500C22664 /* Info.plist */,
+				5994F7B21B89A01500C22664 /* Moovies.xcdatamodeld */,
 				5994F7AD1B89A01500C22664 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +177,65 @@
 				5994F7D01B89A01500C22664 /* Info.plist */,
 			);
 			path = MooviesUITests;
+			sourceTree = "<group>";
+		};
+		5994F7DC1B89A10600C22664 /* GRVibrantTitlebarWindow */ = {
+			isa = PBXGroup;
+			children = (
+				5994F7DD1B89A10600C22664 /* GRSeparatorLineView.h */,
+				5994F7DE1B89A10600C22664 /* GRSeparatorLineView.m */,
+				5994F7DF1B89A10600C22664 /* GRVibrantTitlebarView.h */,
+				5994F7E01B89A10600C22664 /* GRVibrantTitlebarView.m */,
+				5994F7E11B89A10600C22664 /* GRVibrantTitlebarWindow.h */,
+				5994F7E21B89A10600C22664 /* GRVibrantTitlebarWindow.m */,
+				5994F7E31B89A10600C22664 /* GRVibrantTitleView.h */,
+				5994F7E41B89A10600C22664 /* GRVibrantTitleView.m */,
+			);
+			path = GRVibrantTitlebarWindow;
+			sourceTree = "<group>";
+		};
+		5994F7E91B89A11100C22664 /* JWCTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5994F7EA1B89A11100C22664 /* JWCTableView.h */,
+				5994F7EB1B89A11100C22664 /* JWCTableView.m */,
+			);
+			path = JWCTableView;
+			sourceTree = "<group>";
+		};
+		5994F8011B89A4D000C22664 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5994F7B71B89A01500C22664 /* Main.storyboard */,
+				5994F8021B89A4D800C22664 /* Cell View */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5994F8021B89A4D800C22664 /* Cell View */ = {
+			isa = PBXGroup;
+			children = (
+				5994F7FB1B89A47800C22664 /* CategoryCellView.h */,
+				5994F7FC1B89A47800C22664 /* CategoryCellView.m */,
+				5994F7FE1B89A48400C22664 /* MovieCellView.h */,
+				5994F7FF1B89A48400C22664 /* MovieCellView.m */,
+			);
+			name = "Cell View";
+			sourceTree = "<group>";
+		};
+		5994F8031B89A4E300C22664 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5994F7AF1B89A01500C22664 /* ViewController.h */,
+				5994F7B01B89A01500C22664 /* ViewController.m */,
+				5994F7ED1B89A13F00C22664 /* AddViewController.h */,
+				5994F7EE1B89A13F00C22664 /* AddViewController.m */,
+				5994F7EF1B89A13F00C22664 /* GeneratorViewController.h */,
+				5994F7F01B89A13F00C22664 /* GeneratorViewController.m */,
+				5994F7F11B89A13F00C22664 /* InformationViewController.h */,
+				5994F7F21B89A13F00C22664 /* InformationViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5994F7B61B89A01500C22664 /* Assets.xcassets in Resources */,
+				5994F7FA1B89A35700C22664 /* MoviesArray.json in Resources */,
 				5994F7B91B89A01500C22664 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,10 +368,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5994F7F81B89A14700C22664 /* Item.m in Sources */,
+				5994F7F31B89A13F00C22664 /* AddViewController.m in Sources */,
+				5994F7E51B89A10600C22664 /* GRSeparatorLineView.m in Sources */,
 				5994F7B11B89A01500C22664 /* ViewController.m in Sources */,
+				5994F7F51B89A13F00C22664 /* InformationViewController.m in Sources */,
+				5994F8001B89A48400C22664 /* MovieCellView.m in Sources */,
 				5994F7AE1B89A01500C22664 /* main.m in Sources */,
+				5994F7FD1B89A47800C22664 /* CategoryCellView.m in Sources */,
+				5994F7E81B89A10600C22664 /* GRVibrantTitleView.m in Sources */,
 				5994F7B41B89A01500C22664 /* Moovies.xcdatamodeld in Sources */,
+				5994F7EC1B89A11100C22664 /* JWCTableView.m in Sources */,
 				5994F7AB1B89A01500C22664 /* AppDelegate.m in Sources */,
+				5994F7E61B89A10600C22664 /* GRVibrantTitlebarView.m in Sources */,
+				5994F7F41B89A13F00C22664 /* GeneratorViewController.m in Sources */,
+				5994F7E71B89A10600C22664 /* GRVibrantTitlebarWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +603,7 @@
 				5994F7D51B89A01500C22664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5994F7D61B89A01500C22664 /* Build configuration list for PBXNativeTarget "MooviesTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +612,7 @@
 				5994F7D81B89A01500C22664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5994F7D91B89A01500C22664 /* Build configuration list for PBXNativeTarget "MooviesUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +621,7 @@
 				5994F7DB1B89A01500C22664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
