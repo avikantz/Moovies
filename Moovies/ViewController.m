@@ -14,13 +14,18 @@
 	NSMutableDictionary *Movies;
 	NSMutableArray *Categories;
 	NSMutableArray *FullList;
+	NSMutableArray *FilteredList;
 	NSInteger movieCount;
+	
+	BOOL searching;
 }
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
 
 	// Do any additional setup after loading the view.
+	
+	searching = NO;
 	
 	self.tableView.jwcTableViewDataSource = self;
 	self.tableView.jwcTableViewDelegate = self;
@@ -69,6 +74,31 @@
 
 -(void)didFinishExportingData {
 	[self viewDidLoad];
+}
+
+#pragma mark - Search field delegate
+
+- (IBAction)searchFieldDidSearch:(NSSearchField *)sender {
+	FilteredList = [FullList mutableCopy];
+	if (sender.stringValue.length == 0)
+		searching = NO;
+	else {
+		searching = YES;
+		[FilteredList filterUsingPredicate:[NSPredicate predicateWithFormat:@"SELF contains [cd] %@", sender.stringValue]];
+	}
+	[FilteredList sortUsingComparator:^(NSString *a, NSString *b){
+		NSString *aa = [a substringWithRange:NSMakeRange([a length] - 5, 4)];
+		NSString *bb = [b substringWithRange:NSMakeRange([b length] - 5, 4)];
+		return [bb compare:aa];
+	}];
+	[self.tableView reloadData];
+}
+
+-(void)searchFieldDidEndSearching:(NSSearchField *)sender {
+	FilteredList = [FullList mutableCopy];
+	searching = NO;
+	[self populateFullList];
+	[self.tableView reloadData];
 }
 
 #pragma mark - Add and Delete
@@ -132,7 +162,7 @@
 
 -(void)keyDown:(nonnull NSEvent *)theEvent {
 	unichar key = [[theEvent charactersIgnoringModifiers] characterAtIndex:0];
-	if(key == NSDeleteCharacter) {
+	if(key == NSDeleteCharacter && !searching) {
 		NSIndexPath *indexPath = _tableView.selectedIndexPath;
 		if (indexPath != nil) {
 			NSString *cellTitle = [Movies[Categories[indexPath.section]] objectAtIndex:indexPath.row];
@@ -169,10 +199,12 @@
 #pragma mark -  JWCTableViewDataSource methods
 
 -(NSInteger)numberOfSectionsInTableView:(NSTableView *)tableView {
+	if (searching) return 1;
 	return Categories.count;
 }
 
 -(NSInteger)tableView:(NSTableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	if (searching) return FilteredList.count;
 	NSString *sectionTitle = [Categories objectAtIndex:section];
 	NSArray *sectionx = [Movies objectForKey:sectionTitle];
 	return [sectionx count];
@@ -192,29 +224,41 @@
 
 -(NSView *)tableView:(NSTableView *)tableView viewForHeaderInSection:(NSInteger)section {
 	CategoryCellView *ccv = [self.tableView makeViewWithIdentifier:@"categoryCell" owner:self];
-	NSString *sectionTitle = [Categories objectAtIndex:section];
-	NSInteger count = [[Movies objectForKey:sectionTitle] count];
-	ccv.textField.stringValue = [sectionTitle uppercaseString];
-	ccv.countField.stringValue = [NSString stringWithFormat:@"%li", count];
+	if (searching) {
+		ccv.textField.stringValue = @"Search Results";
+		ccv.countField.stringValue = [NSString stringWithFormat:@"%li", FilteredList.count];
+	}
+	else {
+		NSString *sectionTitle = [Categories objectAtIndex:section];
+		NSInteger count = [[Movies objectForKey:sectionTitle] count];
+		ccv.textField.stringValue = [sectionTitle uppercaseString];
+		ccv.countField.stringValue = [NSString stringWithFormat:@"%li", count];
+	}
 	return ccv;
 }
 
 -(NSView *)tableView:(NSTableView *)tableView viewForIndexPath:(NSIndexPath *)indexPath {
 	MovieCellView *mcv = [self.tableView makeViewWithIdentifier:@"movieCell" owner:self];
-	NSString *sectionTitle = [Categories objectAtIndex:indexPath.section];
-	NSArray *sectionx = [Movies objectForKey:sectionTitle];
-	NSString *movieTitle = [sectionx objectAtIndex:indexPath.row];
-	mcv.textField.stringValue = movieTitle;
+	if (searching)
+		mcv.textField.stringValue = [FilteredList objectAtIndex:indexPath.row];
+	else {
+		NSString *sectionTitle = [Categories objectAtIndex:indexPath.section];
+		NSArray *sectionx = [Movies objectForKey:sectionTitle];
+		NSString *movieTitle = [sectionx objectAtIndex:indexPath.row];
+		mcv.textField.stringValue = movieTitle;
+	}
 	return mcv;
 }
 
 #pragma mark -  JWCTableViewDelegate methods
 
 -(BOOL)tableView:(NSTableView *)tableView shouldSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	if (searching) return NO;
 	return YES;
 }
 
 -(BOOL)tableView:(NSTableView *)tableView shouldSelectSection:(NSInteger)section {
+	if (searching) return NO;
 	return YES;
 }
 
@@ -239,6 +283,7 @@
 		}
 	}
 	FullList = [NSMutableArray arrayWithArray:[FullList sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)]];
+	FilteredList = [NSMutableArray arrayWithArray:FullList];
 	_informationField.stringValue = [NSString stringWithFormat:@"%li MOOVIES", movieCount];
 	self.title = [NSString stringWithFormat:@"%li MOOVIES", movieCount];
 }

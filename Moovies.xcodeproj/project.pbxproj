@@ -22,7 +22,6 @@
 		5994F7EC1B89A11100C22664 /* JWCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7EB1B89A11100C22664 /* JWCTableView.m */; };
 		5994F7F31B89A13F00C22664 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7EE1B89A13F00C22664 /* AddViewController.m */; };
 		5994F7F41B89A13F00C22664 /* GeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7F01B89A13F00C22664 /* GeneratorViewController.m */; };
-		5994F7F51B89A13F00C22664 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7F21B89A13F00C22664 /* InformationViewController.m */; };
 		5994F7F81B89A14700C22664 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7F71B89A14700C22664 /* Item.m */; };
 		5994F7FA1B89A35700C22664 /* MoviesArray.json in Resources */ = {isa = PBXBuildFile; fileRef = 5994F7F91B89A35700C22664 /* MoviesArray.json */; };
 		5994F7FD1B89A47800C22664 /* CategoryCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F7FC1B89A47800C22664 /* CategoryCellView.m */; };
@@ -77,8 +76,6 @@
 		5994F7EE1B89A13F00C22664 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 		5994F7EF1B89A13F00C22664 /* GeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratorViewController.h; sourceTree = "<group>"; };
 		5994F7F01B89A13F00C22664 /* GeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratorViewController.m; sourceTree = "<group>"; };
-		5994F7F11B89A13F00C22664 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
-		5994F7F21B89A13F00C22664 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
 		5994F7F61B89A14700C22664 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		5994F7F71B89A14700C22664 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		5994F7F91B89A35700C22664 /* MoviesArray.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MoviesArray.json; sourceTree = "<group>"; };
@@ -232,8 +229,6 @@
 				5994F7EE1B89A13F00C22664 /* AddViewController.m */,
 				5994F7EF1B89A13F00C22664 /* GeneratorViewController.h */,
 				5994F7F01B89A13F00C22664 /* GeneratorViewController.m */,
-				5994F7F11B89A13F00C22664 /* InformationViewController.h */,
-				5994F7F21B89A13F00C22664 /* InformationViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -372,7 +367,6 @@
 				5994F7F31B89A13F00C22664 /* AddViewController.m in Sources */,
 				5994F7E51B89A10600C22664 /* GRSeparatorLineView.m in Sources */,
 				5994F7B11B89A01500C22664 /* ViewController.m in Sources */,
-				5994F7F51B89A13F00C22664 /* InformationViewController.m in Sources */,
 				5994F8001B89A48400C22664 /* MovieCellView.m in Sources */,
 				5994F7AE1B89A01500C22664 /* main.m in Sources */,
 				5994F7FD1B89A47800C22664 /* CategoryCellView.m in Sources */,

@@ -12,11 +12,12 @@
 #import "GeneratorViewController.h"
 #import "InformationViewController.h"
 
-@interface ViewController : NSViewController <JWCTableViewDataSource, JWCTableViewDelegate, AddViewControllerDelegate, GeneratorDelegate>
+@interface ViewController : NSViewController <NSSearchFieldDelegate, JWCTableViewDataSource, JWCTableViewDelegate, AddViewControllerDelegate, GeneratorDelegate>
 
 @property (weak) IBOutlet JWCTableView *tableView;
 @property (weak) IBOutlet NSButton *addButton;
 @property (weak) IBOutlet NSButton *generateButton;
+@property (weak) IBOutlet NSSearchField *searchField;
 
 @property (weak) IBOutlet NSTextField *informationField;
 
