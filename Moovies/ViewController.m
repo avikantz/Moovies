@@ -30,7 +30,9 @@
 	self.tableView.jwcTableViewDataSource = self;
 	self.tableView.jwcTableViewDelegate = self;
 	
-	if ([NSData dataWithContentsOfFile:[self documentsPathForFileName:@"Movies.dat"]])
+	NSFileManager *manager = [NSFileManager defaultManager];
+	
+	if ([manager fileExistsAtPath:[self documentsPathForFileName:@"Movies.dat"]])
 		Movies = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:[self documentsPathForFileName:@"Movies.dat"]] options:kNilOptions error:nil];
 	else
 		Movies = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"MoviesArray" ofType:@"json"]] options:kNilOptions error: nil];
