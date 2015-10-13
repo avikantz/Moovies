@@ -297,10 +297,6 @@
 #pragma mark - Navigation
 
 -(void)prepareForSegue:(NSStoryboardSegue *)segue sender:(id)sender {
-	if ([segue.identifier isEqualToString:@"InformationSegue"]) {
-		InformationViewController *ivt = [segue destinationController];
-		ivt.movieCount = movieCount;
-	}
 	if ([segue.identifier isEqualToString:@"AddMovieSegue"]) {
 		AddViewController *avc = [segue destinationController];
 		avc.delegate = self;

@@ -10,7 +10,6 @@
 #import "JWCTableView.h"
 #import "AddViewController.h"
 #import "GeneratorViewController.h"
-#import "InformationViewController.h"
 
 @interface ViewController : NSViewController <NSSearchFieldDelegate, JWCTableViewDataSource, JWCTableViewDelegate, AddViewControllerDelegate, GeneratorDelegate>
 
